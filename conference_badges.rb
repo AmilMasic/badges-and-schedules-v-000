@@ -9,4 +9,5 @@ def batch_badge_creator(names)
       names << "Hello, my name is #{name}."
     end
     names
+    binding.pry
 end
